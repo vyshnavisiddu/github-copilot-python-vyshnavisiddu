@@ -58,3 +58,10 @@ Use GitHub Copilot to refactor the code for this game to add more advanced featu
 - The game should be responsive and work well on both desktop and mobile devices.
 - UI colors should be visually appealing and accessible.
 - Completed and correct puzzles should display a congratulatory message with the time taken and hints used and ask for the user's name for Top 10 times.
+## GitHub Copilot Evaluation
+
+During development, GitHub Copilot suggested using an `alert()` message to notify users about invalid Sudoku moves.
+
+I evaluated this suggestion and decided not to use it because pop-up alerts interrupt gameplay and reduce the user experience.
+
+Instead, I implemented immediate visual feedback by highlighting the invalid cell with a red border and light red background. This approach provides instant feedback without interrupting the game and better satisfies the project requirements.
